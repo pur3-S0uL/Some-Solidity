@@ -79,7 +79,6 @@ contract Ballot{
 
         voters[msg.sender].voted = true;
 
-
     }
 
     function giveVote(uint _option) external
@@ -94,10 +93,9 @@ contract Ballot{
 
         voters[_voter].voted = true;
         
-
     }
 
-    function selectWinner() public returns (string memory)
+    function selectWinner() external returns (string memory)
     {
         require(msg.sender == ChairPerson,"You are not ChairPerson.");
     
@@ -131,4 +129,3 @@ contract Ballot{
     }
 
 }
- 
