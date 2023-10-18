@@ -71,7 +71,7 @@ contract Ballot{
 
         require(voters[to].id > 0,"No such Voter Exists.");
 
-        require(voters[to].right,"Delegate Person don't have right to Vote.");
+        require(voters[to].right,"Delegate Person have No right to Vote.");
 
         require(!voters[to].voted,"Delegate Person have already Voted.");
 
