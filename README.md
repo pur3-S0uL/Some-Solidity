@@ -6,7 +6,7 @@ Solidity code Snippets.
 ## Codes:
 - Voting Example
 - Lottery Smart Contract
-
+- Blind Auction: Open Auction
 ---
 
 ### Lottery Smart Contract
@@ -21,3 +21,7 @@ A simple smart contract to implement Lottery system. The Owner of contract Recei
 > - [ ] Include random number function. Reference: [Lottery Smart Contract Tutorial Part II - Get a verifiable random number with Chainlink VRF - YouTube](https://www.youtube.com/watch?v=_aXumgdpnPU)
 > - [ ] Owner cannot participate.
 > - [ ] Owner get's little amount of fee.
+
+---
+
+
